@@ -1,14 +1,6 @@
-html, body {
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
 
 #navbar {
@@ -104,7 +96,7 @@ a:hover {
   border-top: 1px solid #dfe1ef;
   background-color: #efefef;
   padding: 15px;
-  flex: 1;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;

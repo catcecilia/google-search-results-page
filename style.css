@@ -31,10 +31,6 @@ body {
   margin-top: 2.5em;
   padding-left: 2.5em;
 }
-#search img {
-  height: 28px;
-  width: auto;
-}
 
 #subnavbar {
   clear: left;
@@ -107,4 +103,40 @@ a:hover {
 #footer ul {
   padding-left: 12em;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+  }
+  #googleimage img {
+    padding: 5%;
+    width: 12.5%;
+  }
+  #search {
+    width: 60%;
+    margin-top: 5%;
+    padding-left: 5%;
+  }
+  #navbar {
+    border-bottom: none;
+  }
+
+  #subnavbar {
+    clear: left;
+    position: absolute;
+    margin-top: 85px;
+    padding-left: 22%;
+    width: 65%;
+    border-bottom: 1px solid #dfe1ef;
+  }
+
+  #mainbody {
+    width: 65%;
+    padding-left: 23%;
+  }
+
+  #footer ul {
+    padding-left: 20%;
+  }
 }

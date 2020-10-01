@@ -10,6 +10,9 @@ body {
   z-index: 100;
   width: 100%;
   background: rgba(255, 255, 255, 1);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #dfe1ef;
 }
 #googleimage img {
   float: left;
@@ -37,13 +40,11 @@ body {
 #subnavbar {
   clear: left;
   position: absolute;
-  margin-top: 75px;
+  margin-top: 85px;
   padding-left: 22%;
   width: 65%;
   z-index: 999;
-  border-bottom: 1px solid #dfe1ef;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -69,7 +70,7 @@ a {
 
 #mainbody {
   clear: left;
-  margin-top: 110px;
+  margin-top: 125px;
   width: 65%;
   padding-left: 23%;
 }
